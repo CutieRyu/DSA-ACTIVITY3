@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Page</title>
+</head>
+<nav>
+    <ul>
+        <li><a href="/"><p style="font-size:large; color: black; font-family: 'Courier New', Courier, monospace;">Home</p></a</li>
+        <li><a href="/works"><p style="font-size:large; color: black; font-family: 'Courier New', Courier, monospace;">Works</p></a></li>
+        <li><a href="/contact"><p style="font-size:large; color: black; font-family: 'Courier New', Courier, monospace;">Contact</p></a></li>
+    </ul>
+</nav>
+<body background="{{url_for('static',filename='bg.jpg')}}">
+<center>
+    <h1 style="color: black; font-family: 'Courier New', Courier, monospace;">Welcome to My Profile Page</h1>
+    
+    <img src="{{ url_for('static',filename='me.jpg')}}" alt="My picture" height="240px" width="240px"></a>
+    <p style="font-size:large; color: black; font-family: 'Courier New', Courier, monospace;">My name is <b>Christian Nathaniel R. Simple,</b> I'm currently 20 years old.</p>
+    <p style="font-size:large; color: black; font-family: 'Courier New', Courier, monospace;">i currently reside in Antipolo City, and i study here at Polytechnic University of the Philippines, My favorite motto to say is <i><b>"if the fight is not yet over, swing the favor in your own hands."</b></i></p>
+</center></body>
+</html>

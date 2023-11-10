@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Page</title>
+</head>
+<nav>
+    <ul>
+        <li><a href="/"><p style="font-size:large; color: black; font-family: 'Courier New', Courier, monospace;">Home</p></a</li>
+        <li><a href="/profile"><p style="font-size:large; color: black; font-family: 'Courier New', Courier, monospace;">Profile</p></a></li>
+        <li><a href="/works"><p style="font-size:large; color: black; font-family: 'Courier New', Courier, monospace;">Works</p></a></li>
+    </ul>
+</nav>
+<body background="{{url_for('static',filename='bg.jpg')}}">
+<center>
+    <h1 style="color: black; font-family: 'Courier New', Courier, monospace;">Welcome to My Contact Page</h1>
+    
+    <img src="{{ url_for('static',filename='me.jpg')}}" alt="My picture" height="240px" width="240px"></a>
+    <p style="font-size:large; color: black; font-family: 'Courier New', Courier, monospace;">My name is <b>Christian Nathaniel R. Simple</b>,I'm currently 20 years old.</p>
+    <p style="font-size:large; color: black; font-family: 'Courier New', Courier, monospace;">Here is my Contacts:</p>
+    <ul>
+        <li><p style="font-size:large; color: black; font-family: 'Courier New', Courier, monospace;">Mobile number: 09452409413</p></li>
+        <li><p style="font-size:large; color: black; font-family: 'Courier New', Courier, monospace;">Email:<i>christiannathanielsimple@gmail.com</i></p></li>
+        <li><p style="font-size:large; color: black; font-family: 'Courier New', Courier, monospace;">Facebook: Christian Nathaniel R. Simple</p></li>
+    </ul>
+</center></body>
+</html>

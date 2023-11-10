@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<title>Circle</title>
+<center>
+    <h1>Circle</h1>
+<h1>Compute the area of a circle</h1>
+<body background="{{url_for('static',filename='bg.jpg')}}">
+    <form action="/circle" method="post">
+        <label for="inputradius">Enter the radius:</label>
+        <input type="number" id="inputradius" name="inputradius">
+        <input type="submit">
+    </form>
+
+    {% if result %}
+    <p>Area: {{ area }}</p>
+    {% endif %}
+</center>
+</body>

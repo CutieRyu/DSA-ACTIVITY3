@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <title>Uppercase</title>
+<center>
+    <h1>Uppercase</h1>
+    <h1>Convert to Uppercase </h1>
+<body background="{{url_for('static',filename='bg.jpg')}}">
+    <h1>Convert String to Uppercase</h1>
+    <form action="/touppercase" method="post">
+        <label for="inputString">Enter a string:</label>
+        <input type="text" id="inputString" name="inputString">
+        <input type="submit" value="Convert">
+    </form>
+
+    {% if result %}
+    <p>Converted string: {{ result }}</p>
+    {% endif %}
+
+</center>
+</body>
+</html>
